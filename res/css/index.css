@@ -1,0 +1,121 @@
+﻿body {
+    font-family: Audimat;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+@font-face {
+    font-family: Audimat;
+    src: url(../../res/font/AUDIMRG_.TTF);
+}
+
+.btn-default {
+    border-color: #000;
+    color: #FFF;
+    background-color: #000;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+/* btn hacks */
+
+.btn:focus {
+  outline: none;
+}
+
+input[type=button]:hover {
+     background-position: 0px;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.btn-default.focus, .btn-default:focus {
+    color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.btn-default.active {
+    color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.btn-default:active:hover {
+     color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.btn-default:active:focus {
+     color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.btn-default:active {
+    color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.btn-default.active:hover {
+    color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #FFF;
+    border-color: #000;
+}
+
+.content {
+    height: 842px;
+}
+
+.main-content {
+    height: 842px;
+    background-image: url("../../res/image/back_pic.jpg");
+    background-size: cover;
+}
+
+.footer {
+    height: 240px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left:50px;
+    color: #ccc;
+    background-color: #3d3d3d;
+}
+
+
+.g-right {
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(208,208,208,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(208,208,208,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d0d0d0', GradientType=1 );
+}
+
+.g-left {
+background: rgba(208,208,208,1);
+background: -moz-linear-gradient(left, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(208,208,208,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(left, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(left, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to right, rgba(208,208,208,1) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0d0d0', endColorstr='#ffffff', GradientType=1 );
+}
